@@ -4,8 +4,8 @@
 @import "abstracts/keyframes";
 
 //base
-@import "base/colors";
 @import "base/reset";
+@import "base/colors";
 
 body {
     background-image: url("images/blur-clean.jpg");
@@ -18,9 +18,9 @@ body {
     padding: 4px;
     display: inline-block;
     margin: auto;
-    width: 300px;
-    height: 300px;
-    background-color: white;
+    width: 12vw;
+    height: 12vw;
+    background-color: $bg-color-box-default;
     outline: 10px solid white;
 }
 
@@ -31,10 +31,11 @@ body {
 }
 
 .box-text {
+    position: absolute;
+    top: 30%;
+    left: 35%;
     color: $color-box-text;
-    vertical-align: middle;
-    text-align: center;
-    font-size: 72px;
+    font-size: 5vw;
     font-weight: bold;
 }
 

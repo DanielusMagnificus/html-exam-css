@@ -26,8 +26,8 @@ body {
   padding: 4px;
   display: inline-block;
   margin: auto;
-  width: 300px;
-  height: 300px;
+  width: 12vw;
+  height: 12vw;
   background-color: white;
   outline: 10px solid white;
 }
@@ -39,10 +39,11 @@ body {
 }
 
 .box-text {
+  position: absolute;
+  top: 30%;
+  left: 35%;
   color: white;
-  vertical-align: middle;
-  text-align: center;
-  font-size: 72px;
+  font-size: 5vw;
   font-weight: bold;
 }
 

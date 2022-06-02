@@ -47,17 +47,17 @@ body {
 }
 
 #box-first {
-  background-color: rgb(148, 50, 99);
+  background-color: RGBA(148, 50, 99, 0.5);
   animation: 1.5s ease-in 1.5s slideInFromTop forwards;
 }
 
 #box-second {
-  background-color: rgb(51, 132, 134);
+  background-color: RGBA(51, 132, 134, 0.5);
   animation: 1.5s ease-in 3s slideInFromTop forwards;
 }
 
 #box-third {
-  background-color: rgb(57, 138, 91);
+  background-color: RGBA(57, 138, 91, 0.5);
   animation: 1.5s ease-in 4.5s slideInFromTop forwards;
 }
 

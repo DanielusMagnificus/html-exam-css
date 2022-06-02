@@ -27,6 +27,9 @@ body {
 }
 
 .box {
+  visibility: hidden;
+  align-content: center;
+  padding: 4px;
   display: inline-block;
   margin: auto;
   width: 300px;
@@ -50,25 +53,16 @@ body {
 }
 
 #box-first {
-  visibility: hidden;
-  align-content: center;
-  padding: 4px;
   background-color: rgb(148, 50, 99);
   animation: 1.5s ease-in 1.5s slideInFromTop forwards;
 }
 
 #box-second {
-  visibility: hidden;
-  align-content: center;
-  padding: 4px;
   background-color: rgb(51, 132, 134);
   animation: 1.5s ease-in 3s slideInFromTop forwards;
 }
 
 #box-third {
-  visibility: hidden;
-  align-content: center;
-  padding: 4px;
   background-color: rgb(57, 138, 91);
   animation: 1.5s ease-in 4.5s slideInFromTop forwards;
 }
